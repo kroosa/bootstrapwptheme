@@ -1,0 +1,58 @@
+#home-banner {
+	color: white;
+}
+
+body > .fluid-container{
+  padding: 100px 15px 0; /*needs to be fixed to be more accurate also changed from .container to .fluid-container to effect div with banner */
+  background-image: url("DSC_0435.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.col-md-9, .col-md-3, .col-md-6{
+	background-color: transparent;
+	border-style: none; 
+}
+
+#home-title{
+	text-align: center;
+}
+
+@media (max-width: 976px){
+	body > .fluid-container{
+		background-size: cover;
+	}
+}
+
+.footer #footer-accordion{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	margin: 0;
+}
+
+.panel.panel-default{
+	margin: 0;
+}
+
+.footer-panel-body{
+	text-align: right;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.footer-panel-body > ul{
+	padding-right: 15px;
+	margin-top: 10px; /*margin-bottom is already at 10px somehow */
+}
+
+.footer-quick-call{
+	padding-top: 8px; /* to vertically center the number so that it matches the button */
+}
+
+.nav-img{
+	height: 50px;
+	width: auto;
+}
